@@ -45,7 +45,7 @@
 - 크루는 "N주차 메이커즈 시작하자"로 시작한다. Claude는 먼저 `python3 _system/check.py N`을 실행해 앞 주차가 끝났는지 본다.
 - 앞 주차가 덜 끝났으면 빠진 것을 알려 주고 그 주차부터 진행한다.
 - 완료 기준은 `_system/check.py`의 주차별 필수 칸 + 주간 요약 확정. 기준을 바꾸려면 이 파일의 `missing()`만 고치면 된다.
-- Claude Code에서 열면 `.claude/settings.json`의 훅이 같은 검사를 자동으로 붙인다. Cowork에서는 CLAUDE.md 규칙으로 한다.
+- 크루는 Claude Code로 연다 (2026-11-20). `.claude/settings.json`의 훅이 같은 검사를 자동으로 붙인다. 무료 방식(Claude 앱 대화에 파일 올리기)에서는 CLAUDE.md 규칙으로 한다.
 
 ## 매주 확인하는 것
 - 수요일까지 슬랙에 올라온 주간 요약 (4항목: 실행 · 증거 · 발견 · 다음 행동)

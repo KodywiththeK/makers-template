@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Claude Code용 보조 하네스: 'N주차 ... 시작' 메시지가 오면 검사기 결과를 대화에 먼저 붙인다.
-Cowork에서는 CLAUDE.md의 "주차 순서 지키기" 규칙으로 같은 검사를 한다."""
+무료 방식(Claude 앱 대화)에서는 CLAUDE.md의 "주차 순서 지키기" 규칙으로 같은 검사를 한다."""
 import json, os, re, subprocess, sys
 
 try:
